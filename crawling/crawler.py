@@ -85,7 +85,7 @@ FOLDER_PATH = r'./images/'
 
 if not os.path.isdir(FOLDER_PATH):
     os.mkdir(FOLDER_PATH)
-# 파이썬으로 폴더 생성//
+# 파이썬으로 폴더 생성 //
 
 # 파이썬으로 이미지 url 파일 다운로드
 from urllib.request import urlretrieve
@@ -96,4 +96,4 @@ for image_src in image_list:
     urlretrieve(image_src, FOLDER_PATH + f'{number}.png')
     number += 1
     time.sleep(0.5)
-# 파이썬으로 이미지 url 파일 다운로드//
+# 파이썬으로 이미지 url 파일 다운로드 //
